@@ -22,6 +22,6 @@ public class HelloFunction {
 	 */
 	@Bean
 	public Function<User, Greeting> hello() {
-		return user -> new Greeting("Hello, " + user.getName());
+		return user -> new Greeting("Goot AfterNoon, " + user.getName());
 	}
 }
